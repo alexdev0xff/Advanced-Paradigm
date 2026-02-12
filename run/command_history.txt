@@ -1,4 +1,3 @@
-/give Player346 advancedparadigm:suspicious_substance
 /give Player346 advancedparadigm:condensed_dirt
 /give Player162 advancedparadigm:condensed_dirt
 /locate
@@ -44,3 +43,8 @@
 /gamemode spectator
 /gamemode survival
 /gamemode creative
+/give Player932 advancedparadigm:tin_pickaxe
+/gamemode spectator
+/gamemode survival
+/gamemode spectator
+/gamemode survival

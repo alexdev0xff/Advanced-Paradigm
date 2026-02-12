@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "advancedparadigm:tin_pickaxe": 5
+    },
+    "minecraft:picked_up": {
+      "minecraft:cobblestone": 2,
+      "minecraft:raw_copper": 5
+    },
+    "minecraft:mined": {
+      "minecraft:copper_ore": 3,
+      "minecraft:stone": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 135,
+      "minecraft:walk_one_cm": 226,
+      "minecraft:total_world_time": 143,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 135,
+      "minecraft:time_since_death": 135
+    }
+  },
+  "DataVersion": 4671
+}

@@ -2,6 +2,7 @@ package alexdev0xff.advancedparadigm;
 
 import alexdev0xff.advancedparadigm.Blocks.ModBlocks;
 import alexdev0xff.advancedparadigm.Items.ModItems;
+import alexdev0xff.advancedparadigm.ModMaterial.ModMaterial;
 import alexdev0xff.advancedparadigm.ModOre.ModPlacedFeatures;
 import alexdev0xff.advancedparadigm.ModRecipe.ExampleModRecipeProvider;
 import alexdev0xff.advancedparadigm.ModTabs.ModTabs;
@@ -27,7 +28,7 @@ public class AdvancedParadigm implements ModInitializer {
 		ModBlocks.initialize();
 		ModTabs.initialize();
 		ExampleModRecipeProvider.initialize();
-
+		ModMaterial.initialize();
 
 
 

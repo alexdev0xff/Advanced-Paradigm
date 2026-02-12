@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_furnace": 1,
+      "minecraft:time_since_rest": 422,
+      "minecraft:walk_one_cm": 179,
+      "minecraft:total_world_time": 425,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_on_water_one_cm": 72,
+      "minecraft:play_time": 422,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 422
+    },
+    "minecraft:crafted": {
+      "minecraft:air": 0,
+      "advancedparadigm:tin_ingot": 1
+    }
+  },
+  "DataVersion": 4671
+}

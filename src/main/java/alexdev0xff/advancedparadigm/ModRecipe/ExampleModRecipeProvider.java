@@ -25,8 +25,7 @@ public class ExampleModRecipeProvider extends FabricRecipeProvider {
         return new RecipeProvider(registryLookup, exporter) {
             @Override
             public void buildRecipes() {
-
-
+                // Рецепт из РУДЫ в печи
                 SimpleCookingRecipeBuilder.smelting(
                                 Ingredient.of(ModBlocks.TIN_ORE),
                                 RecipeCategory.MISC,
@@ -34,8 +33,10 @@ public class ExampleModRecipeProvider extends FabricRecipeProvider {
                                 0.7f,
                                 200
                         ).unlockedBy(getHasName(ModItems.RAW_TIN), has(ModItems.RAW_TIN))
-                        .save(output, "tin_ore_from_smelting");
+                        // Используем exporter и создаем правильный путь
+                        .save(exporter, "advancedparadigm:tin_ore_from_smelting");
 
+                // Рецепт из РУДЫ в плавильне
                 SimpleCookingRecipeBuilder.blasting(
                                 Ingredient.of(ModBlocks.TIN_ORE),
                                 RecipeCategory.MISC,
@@ -43,9 +44,9 @@ public class ExampleModRecipeProvider extends FabricRecipeProvider {
                                 0.7f,
                                 100
                         ).unlockedBy(getHasName(ModItems.RAW_TIN), has(ModItems.RAW_TIN))
-                        .save(output, "tin_ore_from_blasting");
+                        .save(exporter, "advancedparadigm:tin_ore_from_blasting");
 
-                // Рецепт в обычной печке (Smelting)
+                // Рецепт из СЫРОЙ РУДЫ в печи
                 SimpleCookingRecipeBuilder.smelting(
                                 Ingredient.of(ModItems.RAW_TIN),
                                 RecipeCategory.MISC,
@@ -53,9 +54,9 @@ public class ExampleModRecipeProvider extends FabricRecipeProvider {
                                 0.7f,
                                 200
                         ).unlockedBy(getHasName(ModItems.RAW_TIN), has(ModItems.RAW_TIN))
-                        .save(output, "tin_ingot_from_smelting");
+                        .save(exporter, "advancedparadigm:tin_ingot_from_smelting");
 
-                // Рецепт в плавильне (Blasting) - в 2 раза быстрее
+                // Рецепт из СЫРОЙ РУДЫ в плавильне
                 SimpleCookingRecipeBuilder.blasting(
                                 Ingredient.of(ModItems.RAW_TIN),
                                 RecipeCategory.MISC,
@@ -63,10 +64,12 @@ public class ExampleModRecipeProvider extends FabricRecipeProvider {
                                 0.7f,
                                 100
                         ).unlockedBy(getHasName(ModItems.RAW_TIN), has(ModItems.RAW_TIN))
-                        .save(output, "tin_ingot_from_blasting");
+                        .save(exporter, "advancedparadigm:tin_ingot_from_blasting");
             }
         };
     }
+
+
 
     @Override
     public String getName() {
