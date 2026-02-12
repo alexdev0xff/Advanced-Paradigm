@@ -15,3 +15,5 @@
 /effect give Player375 minecraft:night_vision infinite
 /effect give Player956 minecraft:night_vision infinite
 /fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone
+/effect give Player956 minecraft:night_vision infinite
+/gamemode spectator

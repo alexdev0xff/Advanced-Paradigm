@@ -22,7 +22,7 @@
 			"alexdev0xff.advancedparadigm.AdvancedParadigmClient"
 		],
 		"fabric-datagen": [
-			"alexdev0xff.advancedparadigm.AdvancedParadigmDataGenerator"
+			"alexdev0xff.advancedparadigm.ModOre.AdvancedParadigmDataGenerator"
 		]
 	},
 	"mixins": [
