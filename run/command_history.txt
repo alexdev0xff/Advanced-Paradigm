@@ -1,3 +1,17 @@
 /give Player346 advancedparadigm:suspicious_substance
 /give Player346 advancedparadigm:condensed_dirt
 /give Player162 advancedparadigm:condensed_dirt
+/locate
+/locate configured_feature advancedparadigm:ruby_ore
+/locate poi
+/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone
+/spectate
+/gamemode spectator
+/fill ~-1000 ~-1000 ~-1000 ~10 ~10 ~10 air replace stone
+/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone
+/effect give Player375 minecraft:night_vision infinite
+/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone
+/gamemode spectator
+/effect give Player375 minecraft:night_vision infinite
+/effect give Player956 minecraft:night_vision infinite
+/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone

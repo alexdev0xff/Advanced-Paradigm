@@ -50,6 +50,30 @@ public class ModBlocks {
             true
     );
 
+
+    // 1. Обычная рубиновая руда
+    public static final Block RUBY_ORE = register(
+            "ruby_ore",
+            settings -> new net.minecraft.world.level.block.DropExperienceBlock(
+                    net.minecraft.util.valueproviders.UniformInt.of(3, 7),
+                    settings
+            ),
+            BlockBehaviour.Properties.ofFullCopy(net.minecraft.world.level.block.Blocks.IRON_ORE),
+            true
+    );
+
+    // 2. Глубинная рубиновая руда
+    public static final Block DEEPSLATE_RUBY_ORE = register(
+            "deepslate_ruby_ore",
+            settings -> new net.minecraft.world.level.block.DropExperienceBlock(
+                    net.minecraft.util.valueproviders.UniformInt.of(3, 7),
+                    settings
+            ),
+            BlockBehaviour.Properties.ofFullCopy(net.minecraft.world.level.block.Blocks.DEEPSLATE_IRON_ORE),
+            true
+    );
+
+
     public static void initialize() {
 
     }
