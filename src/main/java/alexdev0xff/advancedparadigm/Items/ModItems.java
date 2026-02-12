@@ -9,6 +9,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.world.item.equipment.ArmorType;
 
 import java.util.function.Function;
 
@@ -50,6 +51,12 @@ public class ModItems {
     public static final Item TIN_AXE = register("tin_axe", p -> axe(ModMaterial.TIN_TIER, 1f, 1f, p), new Item.Properties());
     public static final Item TIN_SHOVEL = register("tin_shovel", p -> shovel(ModMaterial.TIN_TIER, 1f, 1f, p), new Item.Properties());
     public static final Item TIN_HOE = register("tin_hoe", p -> hoe(ModMaterial.TIN_TIER, 1f, 1f, p), new Item.Properties());
+
+    // пример, когда ArmorItem принимает (ArmorMaterial, ArmorType, Properties)
+    public static final Item TIN_HELMET = register("tin_helmet", Item::new, new Item.Properties().humanoidArmor(ModMaterial.TIN_ARMOR_MATERIAL, ArmorType.HELMET));
+    public static final Item TIN_CHESTPLATE = register("tin_chestplate", Item::new, new Item.Properties().humanoidArmor(ModMaterial.TIN_ARMOR_MATERIAL, ArmorType.CHESTPLATE));
+    public static final Item TIN_LEGGINGS = register("tin_leggings", Item::new, new Item.Properties().humanoidArmor(ModMaterial.TIN_ARMOR_MATERIAL, ArmorType.LEGGINGS));
+    public static final Item TIN_BOOTS = register("tin_boots", Item::new, new Item.Properties().humanoidArmor(ModMaterial.TIN_ARMOR_MATERIAL, ArmorType.BOOTS));
 
 
     public static void initialize() {
