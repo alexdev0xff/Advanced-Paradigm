@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:raw_iron": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 370,
+      "minecraft:walk_one_cm": 1782,
+      "minecraft:total_world_time": 375,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 370,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 370,
+      "minecraft:drop": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:raw_iron": 1
+    },
+    "minecraft:used": {
+      "minecraft:iron_pickaxe": 2,
+      "minecraft:netherite_pickaxe": 4
+    },
+    "minecraft:mined": {
+      "advancedparadigm:tin_ore": 6
+    }
+  },
+  "DataVersion": 4671
+}

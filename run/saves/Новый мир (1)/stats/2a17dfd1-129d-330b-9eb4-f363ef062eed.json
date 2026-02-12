@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:cobblestone": 2,
+      "advancedparadigm:raw_tin": 6
+    },
+    "minecraft:used": {
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:netherite_pickaxe": 2
+    },
+    "minecraft:mined": {
+      "advancedparadigm:tin_ore": 2,
+      "advancedparadigm:deepslate_tin_ore": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 542,
+      "minecraft:walk_one_cm": 367,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 263,
+      "minecraft:damage_taken": 20,
+      "minecraft:play_time": 542,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 542,
+      "minecraft:sprint_one_cm": 721,
+      "minecraft:fall_one_cm": 725,
+      "minecraft:swim_one_cm": 2054,
+      "minecraft:total_world_time": 547,
+      "minecraft:fly_one_cm": 1256,
+      "minecraft:walk_on_water_one_cm": 82
+    }
+  },
+  "DataVersion": 4671
+}

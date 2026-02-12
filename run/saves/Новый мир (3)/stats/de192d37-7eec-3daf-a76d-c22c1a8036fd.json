@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1913,
+      "minecraft:walk_one_cm": 1504,
+      "minecraft:leave_game": 2,
+      "minecraft:play_time": 1913,
+      "minecraft:jump": 5,
+      "minecraft:time_since_death": 1913,
+      "minecraft:interact_with_furnace": 3,
+      "minecraft:sprint_one_cm": 164,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:total_world_time": 1996,
+      "minecraft:fly_one_cm": 426,
+      "minecraft:interact_with_anvil": 1,
+      "minecraft:sneak_time": 1
+    },
+    "minecraft:used": {
+      "minecraft:experience_bottle": 10,
+      "minecraft:anvil": 1,
+      "minecraft:netherite_pickaxe": 11
+    },
+    "minecraft:mined": {
+      "advancedparadigm:tin_ore": 11
+    },
+    "minecraft:crafted": {
+      "minecraft:air": 0,
+      "advancedparadigm:tin_ingot": 1
+    }
+  },
+  "DataVersion": 4671
+}

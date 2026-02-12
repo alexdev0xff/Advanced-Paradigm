@@ -1,25 +1,3 @@
-/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone
-/spectate
-/gamemode spectator
-/fill ~-1000 ~-1000 ~-1000 ~10 ~10 ~10 air replace stone
-/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone
-/effect give Player375 minecraft:night_vision infinite
-/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone
-/gamemode spectator
-/effect give Player375 minecraft:night_vision infinite
-/effect give Player956 minecraft:night_vision infinite
-/fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone
-/effect give Player956 minecraft:night_vision infinite
-/gamemode spectator
-/locate points_of_interest
-/locate poi #minecraft:bee_home
-/locate structure #c:hidden_from_displayers
-/gamemode spectator
-/gamemode creative
-/spawnpoint
-/spectate
-/spectate Player562
-/gamemode spectator
 /effect clear Player562 minecraft:night_vision
 /effect give Player562 minecraft:night_vision
 /gamemode spectator
@@ -48,3 +26,25 @@
 /gamemode creative
 /gamemode survival
 /gamemode creative
+/give Player914 advancedparadigm:tin_helmet
+/give Player914 advancedparadigm:tin_boots
+/give Player914 advancedparadigm:tin_leggings
+/give Player914 advancedparadigm:tin_chestplate
+/give Player914 advancedparadigm:tin_axe
+/give Player914 advancedparadigm:tin_sword
+/gamemode survival
+/gamemode c
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival

@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:pig": 1
+    },
+    "minecraft:mined": {
+      "advancedparadigm:tin_ore": 6
+    },
+    "minecraft:used": {
+      "advancedparadigm:tin_sword": 3,
+      "minecraft:furnace": 3,
+      "minecraft:netherite_pickaxe": 6,
+      "advancedparadigm:tin_ore": 19
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3090,
+      "minecraft:walk_one_cm": 3699,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 3090,
+      "minecraft:damage_dealt": 100,
+      "minecraft:jump": 5,
+      "minecraft:time_since_death": 3090,
+      "minecraft:drop": 1,
+      "minecraft:interact_with_furnace": 2,
+      "minecraft:sprint_one_cm": 376,
+      "minecraft:total_world_time": 5901,
+      "minecraft:fly_one_cm": 239,
+      "minecraft:crouch_one_cm": 2,
+      "minecraft:sneak_time": 44
+    },
+    "minecraft:dropped": {
+      "advancedparadigm:tin_helmet": 1
+    }
+  },
+  "DataVersion": 4671
+}
