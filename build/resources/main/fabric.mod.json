@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "advancedparadigm",
+	"version": "1.0.0",
+	"name": "AdvancedParadigm",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/advancedparadigm/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"alexdev0xff.advancedparadigm.AdvancedParadigm"
+		],
+		"client": [
+			"alexdev0xff.advancedparadigm.AdvancedParadigmClient"
+		],
+		"fabric-datagen": [
+			"alexdev0xff.advancedparadigm.AdvancedParadigmDataGenerator"
+		]
+	},
+	"mixins": [
+		"advancedparadigm.mixins.json",
+		{
+			"config": "advancedparadigm.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
