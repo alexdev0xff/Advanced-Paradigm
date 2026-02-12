@@ -21,4 +21,4 @@ public class ModWorldGenerator extends FabricDynamicRegistryProvider {
     public String getName() {
         return "World Gen";
     }
-    }
+}

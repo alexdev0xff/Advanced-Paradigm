@@ -16,24 +16,30 @@ import alexdev0xff.advancedparadigm.Blocks.ModBlocks;
 
 public class ModConfiguredFeatures {
     // Ключ, по которому PlacedFeatures найдет этот конфиг
-    public static final ResourceKey<ConfiguredFeature<?, ?>> RUBY_ORE_KEY = ResourceKey.create(
+
+
+    public static final ResourceKey<ConfiguredFeature<?, ?>> TIN_ORE_KEY = ResourceKey.create(
             Registries.CONFIGURED_FEATURE,
-            Identifier.fromNamespaceAndPath("advancedparadigm", "ruby_ore")
+            Identifier.fromNamespaceAndPath("advancedparadigm", "tin_ore")
     );
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
         // 1. Правила: что мы можем заменять (камень и глубинный сланец)
+
         TagMatchTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         TagMatchTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
-        // 2. Список целей: ВОТ ТУТ указываются твои блоки
-        List<OreConfiguration.TargetBlockState> targets = List.of(
-                OreConfiguration.target(stoneReplaceables, ModBlocks.RUBY_ORE.defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_RUBY_ORE.defaultBlockState())
+
+
+        List<OreConfiguration.TargetBlockState> tinTargets = List.of(
+                OreConfiguration.target(stoneReplaceables, ModBlocks.TIN_ORE.defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_TIN_ORE.defaultBlockState())
         );
 
+
+
         // 3. Регистрация конфига:
-        // Параметр '9' — это размер жилы (как у железа)
-        context.register(RUBY_ORE_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(targets, 9)));
+        context.register(TIN_ORE_KEY, new ConfiguredFeature<>(Feature.ORE,
+                new OreConfiguration(tinTargets, 64))); // Размер 64 — настоящая жила GregTech
     }
 }

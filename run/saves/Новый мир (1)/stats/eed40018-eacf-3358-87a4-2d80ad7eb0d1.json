@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "advancedparadigm:tin_ore": 1
+    },
+    "minecraft:mined": {
+      "advancedparadigm:tin_ore": 1,
+      "minecraft:andesite": 1
+    },
+    "minecraft:used": {
+      "minecraft:netherite_pickaxe": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1054,
+      "minecraft:walk_one_cm": 768,
+      "minecraft:total_world_time": 1307,
+      "minecraft:leave_game": 1,
+      "minecraft:crouch_one_cm": 152,
+      "minecraft:sneak_time": 92,
+      "minecraft:play_time": 1054,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 1054
+    }
+  },
+  "DataVersion": 4671
+}

@@ -9,6 +9,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
@@ -51,25 +52,29 @@ public class ModBlocks {
     );
 
 
-    // 1. Обычная рубиновая руда
-    public static final Block RUBY_ORE = register(
-            "ruby_ore",
+
+
+
+    public static final Block TIN_ORE = register(
+            "tin_ore",
             settings -> new net.minecraft.world.level.block.DropExperienceBlock(
-                    net.minecraft.util.valueproviders.UniformInt.of(3, 7),
+                    net.minecraft.util.valueproviders.UniformInt.of(1, 3),
                     settings
             ),
-            BlockBehaviour.Properties.ofFullCopy(net.minecraft.world.level.block.Blocks.IRON_ORE),
+            // Вот здесь настраивается прочность:
+            // Первый параметр (3.0f) — твердость, второй (3.0f) — сопротивление взрыву
+            BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(5.0f, 3.0f).requiresCorrectToolForDrops(),
             true
     );
 
-    // 2. Глубинная рубиновая руда
-    public static final Block DEEPSLATE_RUBY_ORE = register(
-            "deepslate_ruby_ore",
+    public static final Block DEEPSLATE_TIN_ORE = register(
+            "deepslate_tin_ore",
             settings -> new net.minecraft.world.level.block.DropExperienceBlock(
-                    net.minecraft.util.valueproviders.UniformInt.of(3, 7),
+                    net.minecraft.util.valueproviders.UniformInt.of(5, 3),
                     settings
             ),
-            BlockBehaviour.Properties.ofFullCopy(net.minecraft.world.level.block.Blocks.DEEPSLATE_IRON_ORE),
+            // Для сланцевой руды в GTNH прочность обычно выше (4.5f)
+            BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE).strength(1.5f, 3.0f).requiresCorrectToolForDrops(),
             true
     );
 

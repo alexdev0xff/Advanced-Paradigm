@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1733,
+      "minecraft:fall_one_cm": 325,
+      "minecraft:walk_one_cm": 590,
+      "minecraft:total_world_time": 1739,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 13436,
+      "minecraft:walk_on_water_one_cm": 227,
+      "minecraft:sneak_time": 149,
+      "minecraft:play_time": 1733,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 1733
+    },
+    "minecraft:used": {
+      "minecraft:netherite_pickaxe": 1
+    }
+  },
+  "DataVersion": 4671
+}

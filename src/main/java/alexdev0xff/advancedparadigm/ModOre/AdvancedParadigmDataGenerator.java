@@ -11,7 +11,8 @@ public class AdvancedParadigmDataGenerator implements DataGeneratorEntrypoint {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
         // Добавляем провайдер, который создаст JSON-файлы
-        pack.addProvider(ModWorldGenerator::new);
+        pack.addProvider(ModWorldGenerator::new); // Генерация руд
+
     }
 
     @Override
@@ -20,5 +21,6 @@ public class AdvancedParadigmDataGenerator implements DataGeneratorEntrypoint {
         registryBuilder.add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
         // Регистрация размещения (высота, шанс)
         registryBuilder.add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+
     }
 }

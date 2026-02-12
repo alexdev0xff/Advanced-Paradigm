@@ -17,3 +17,25 @@
 /fill ~-10 ~-10 ~-10 ~10 ~10 ~10 air replace stone
 /effect give Player956 minecraft:night_vision infinite
 /gamemode spectator
+/locate points_of_interest
+/locate poi #minecraft:bee_home
+/locate structure #c:hidden_from_displayers
+/gamemode spectator
+/gamemode creative
+/spawnpoint
+/spectate
+/spectate Player562
+/gamemode spectator
+/effect clear Player562 minecraft:night_vision
+/effect give Player562 minecraft:night_vision
+/gamemode spectator
+/effect give Player76 minecraft:night_vision infinite
+/gamemode creative
+/gamemode spectator
+/gamemode survival
+/gamemode spectator
+/gamemode survival
+/gamemode spectator
+/gamemode survival
+/gamemode creative
+/gamemode survival

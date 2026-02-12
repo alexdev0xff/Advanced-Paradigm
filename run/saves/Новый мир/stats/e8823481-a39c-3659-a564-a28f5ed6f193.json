@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 33,
+      "minecraft:time_since_rest": 470,
+      "minecraft:walk_one_cm": 376,
+      "minecraft:total_world_time": 4161,
+      "minecraft:fly_one_cm": 3088,
+      "minecraft:sneak_time": 7,
+      "minecraft:play_time": 470,
+      "minecraft:jump": 1,
+      "minecraft:time_since_death": 470
+    },
+    "minecraft:used": {
+      "advancedparadigm:condensed_dirt": 1,
+      "advancedparadigm:tin_ore": 1
+    }
+  },
+  "DataVersion": 4671
+}

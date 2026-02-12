@@ -30,6 +30,8 @@ public class AdvancedParadigm implements ModInitializer {
 				GenerationStep.Decoration.UNDERGROUND_ORES,
 				ModPlacedFeatures.RUBY_ORE_PLACED_KEY
 		);
+		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+				GenerationStep.Decoration.UNDERGROUND_ORES, ModPlacedFeatures.TIN_ORE_PLACED_KEY);
 	}
 
-	}
+}

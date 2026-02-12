@@ -17,12 +17,18 @@ public class ModPlacedFeatures {
             Registries.PLACED_FEATURE,
             Identifier.fromNamespaceAndPath("advancedparadigm", "ruby_ore_placed")
     );
+    public static final ResourceKey<PlacedFeature> TIN_ORE_PLACED_KEY = ResourceKey.create(
+            Registries.PLACED_FEATURE,
+            Identifier.fromNamespaceAndPath("advancedparadigm", "tin_ore_placed")
+    );
+
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
-        context.register(RUBY_ORE_PLACED_KEY, new PlacedFeature(
-                configuredFeatures.getOrThrow(ModConfiguredFeatures.RUBY_ORE_KEY),
+
+        context.register(TIN_ORE_PLACED_KEY, new PlacedFeature(
+                configuredFeatures.getOrThrow(ModConfiguredFeatures.TIN_ORE_KEY),
                 List.of(
                         CountPlacement.of(10),
                         InSquarePlacement.spread(),

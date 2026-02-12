@@ -1,0 +1,43 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:golden_pickaxe": 1,
+      "minecraft:iron_pickaxe": 7,
+      "minecraft:netherite_pickaxe": 6
+    },
+    "minecraft:dropped": {
+      "minecraft:raw_iron": 2,
+      "advancedparadigm:raw_tin": 16,
+      "minecraft:netherite_pickaxe": 1,
+      "minecraft:andesite": 2,
+      "minecraft:golden_pickaxe": 1
+    },
+    "minecraft:mined": {
+      "advancedparadigm:tin_ore": 11,
+      "minecraft:andesite": 1,
+      "minecraft:iron_ore": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1318,
+      "minecraft:walk_one_cm": 3098,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 1318,
+      "minecraft:jump": 19,
+      "minecraft:time_since_death": 1318,
+      "minecraft:drop": 8,
+      "minecraft:sprint_one_cm": 800,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:total_world_time": 1323,
+      "minecraft:fly_one_cm": 800,
+      "minecraft:crouch_one_cm": 36,
+      "minecraft:sneak_time": 49
+    },
+    "minecraft:picked_up": {
+      "minecraft:netherite_pickaxe": 1,
+      "advancedparadigm:raw_tin": 17,
+      "minecraft:andesite": 2,
+      "minecraft:raw_iron": 2
+    }
+  },
+  "DataVersion": 4671
+}

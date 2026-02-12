@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "advancedparadigm:tin_ore",
+    "advancedparadigm:deepslate_tin_ore",
+    "advancedparadigm:ruby_ore",
+    "advancedparadigm:deepslate_ruby_ore"
+  ]
+}

@@ -26,7 +26,7 @@ public class ModItems {
 
 
 
-    public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Properties());
+    public static final Item RAW_TIN = register("raw_tin", Item::new, new Item.Properties());
 
     public static void initialize() {
 
