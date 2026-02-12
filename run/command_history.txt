@@ -39,3 +39,8 @@
 /gamemode survival
 /gamemode creative
 /gamemode survival
+/gamemode spectator
+/gamemode creative
+/gamemode spectator
+/gamemode survival
+/gamemode creative

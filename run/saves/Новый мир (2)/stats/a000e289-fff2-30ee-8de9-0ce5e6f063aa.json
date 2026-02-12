@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:air": 0,
+      "advancedparadigm:tin_ingot": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_furnace": 3,
+      "minecraft:sprint_one_cm": 243,
+      "minecraft:time_since_rest": 328,
+      "minecraft:walk_one_cm": 117,
+      "minecraft:total_world_time": 331,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 2077,
+      "minecraft:play_time": 328,
+      "minecraft:jump": 10,
+      "minecraft:time_since_death": 328
+    }
+  },
+  "DataVersion": 4671
+}

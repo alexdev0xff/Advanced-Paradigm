@@ -27,6 +27,8 @@ public class ModItems {
 
 
     public static final Item RAW_TIN = register("raw_tin", Item::new, new Item.Properties());
+    public static final Item TIN_INGOT = register("tin_ingot", Item::new, new Item.Properties());
+
 
     public static void initialize() {
 

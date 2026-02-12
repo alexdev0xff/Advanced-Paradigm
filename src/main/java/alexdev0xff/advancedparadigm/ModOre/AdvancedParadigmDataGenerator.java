@@ -1,5 +1,6 @@
 package alexdev0xff.advancedparadigm.ModOre;
 
+import alexdev0xff.advancedparadigm.ModRecipe.ExampleModRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.core.RegistrySetBuilder;
@@ -12,6 +13,7 @@ public class AdvancedParadigmDataGenerator implements DataGeneratorEntrypoint {
 
         // Добавляем провайдер, который создаст JSON-файлы
         pack.addProvider(ModWorldGenerator::new); // Генерация руд
+        pack.addProvider(ExampleModRecipeProvider::new);
 
     }
 

@@ -10,8 +10,6 @@ import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import java.util.List;
-
-// Импортируй свои блоки (путь может отличаться)
 import alexdev0xff.advancedparadigm.Blocks.ModBlocks;
 
 public class ModConfiguredFeatures {

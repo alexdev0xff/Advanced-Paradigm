@@ -3,6 +3,7 @@ package alexdev0xff.advancedparadigm;
 import alexdev0xff.advancedparadigm.Blocks.ModBlocks;
 import alexdev0xff.advancedparadigm.Items.ModItems;
 import alexdev0xff.advancedparadigm.ModOre.ModPlacedFeatures;
+import alexdev0xff.advancedparadigm.ModRecipe.ExampleModRecipeProvider;
 import alexdev0xff.advancedparadigm.ModTabs.ModTabs;
 import net.fabricmc.api.ModInitializer;
 
@@ -25,13 +26,18 @@ public class AdvancedParadigm implements ModInitializer {
 		ModItems.initialize();
 		ModBlocks.initialize();
 		ModTabs.initialize();
+		ExampleModRecipeProvider.initialize();
+
+
+
+
+
 		BiomeModifications.addFeature(
 				BiomeSelectors.foundInOverworld(),
 				GenerationStep.Decoration.UNDERGROUND_ORES,
-				ModPlacedFeatures.RUBY_ORE_PLACED_KEY
+				ModPlacedFeatures.TIN_ORE_PLACED_KEY
 		);
-		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
-				GenerationStep.Decoration.UNDERGROUND_ORES, ModPlacedFeatures.TIN_ORE_PLACED_KEY);
+
 	}
 
 }

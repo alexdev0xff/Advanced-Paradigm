@@ -23,7 +23,9 @@ public class ModTabs {
             .icon(() -> new ItemStack(ModItems.RAW_TIN))
             .title(Component.translatable("itemGroup.advancedparadigm"))
             .displayItems((params, output) -> {
+
                 output.accept(ModItems.RAW_TIN);
+                output.accept(ModItems.TIN_INGOT);
                 output.accept(ModBlocks.TIN_ORE);
 
 

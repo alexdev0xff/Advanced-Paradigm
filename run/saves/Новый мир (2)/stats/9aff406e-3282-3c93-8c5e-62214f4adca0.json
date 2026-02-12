@@ -1,0 +1,13 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_furnace": 3,
+      "minecraft:time_since_rest": 522,
+      "minecraft:total_world_time": 526,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 522,
+      "minecraft:time_since_death": 522
+    }
+  },
+  "DataVersion": 4671
+}
