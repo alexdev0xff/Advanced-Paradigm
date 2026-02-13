@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "advancedparadigm:energy_pipe": 19
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 579,
+      "minecraft:time_since_rest": 1202,
+      "minecraft:walk_one_cm": 3339,
+      "minecraft:total_world_time": 3864,
+      "minecraft:fly_one_cm": 725,
+      "minecraft:crouch_one_cm": 510,
+      "minecraft:sneak_time": 120,
+      "minecraft:play_time": 1202,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 1202
+    }
+  },
+  "DataVersion": 4671
+}

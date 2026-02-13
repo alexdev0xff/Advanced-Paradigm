@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 778,
+      "minecraft:time_since_rest": 1795,
+      "minecraft:walk_one_cm": 2139,
+      "minecraft:total_world_time": 1821,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 4562,
+      "minecraft:crouch_one_cm": 310,
+      "minecraft:sneak_time": 120,
+      "minecraft:play_time": 1795,
+      "minecraft:jump": 11,
+      "minecraft:time_since_death": 1795
+    },
+    "minecraft:used": {
+      "advancedparadigm:lead_ore": 1,
+      "advancedparadigm:deepslate_lead_ore": 1,
+      "advancedparadigm:tin_ore": 3,
+      "advancedparadigm:deepslate_tin_ore": 2
+    }
+  },
+  "DataVersion": 4671
+}

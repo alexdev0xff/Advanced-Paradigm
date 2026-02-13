@@ -20,6 +20,19 @@ public class ModConfiguredFeatures {
             Registries.CONFIGURED_FEATURE,
             Identifier.fromNamespaceAndPath("advancedparadigm", "tin_ore")
     );
+    public static final ResourceKey<ConfiguredFeature<?, ?>> LEAD_ORE_KEY = ResourceKey.create(
+            Registries.CONFIGURED_FEATURE,
+            Identifier.fromNamespaceAndPath("advancedparadigm", "lead_ore")
+    );
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SILVER_ORE_KEY = ResourceKey.create(
+            Registries.CONFIGURED_FEATURE,
+            Identifier.fromNamespaceAndPath("advancedparadigm", "silver_ore")
+    );
+    public static final ResourceKey<ConfiguredFeature<?, ?>> URANIUM_ORE_KEY = ResourceKey.create(
+            Registries.CONFIGURED_FEATURE,
+            Identifier.fromNamespaceAndPath("advancedparadigm", "uranium_ore")
+    );
+
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
         // 1. Правила: что мы можем заменять (камень и глубинный сланец)
@@ -33,11 +46,41 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(stoneReplaceables, ModBlocks.TIN_ORE.defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_TIN_ORE.defaultBlockState())
         );
+        List<OreConfiguration.TargetBlockState> leadTargets = List.of(
+                OreConfiguration.target(stoneReplaceables, ModBlocks.LEAD_ORE.defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_LEAD_ORE.defaultBlockState())
+        );
+        List<OreConfiguration.TargetBlockState> silverTargets = List.of(
+                OreConfiguration.target(stoneReplaceables, ModBlocks.SILVER_ORE.defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.SILVER_LEAD_ORE.defaultBlockState())
+        );
+        List<OreConfiguration.TargetBlockState> uraniumTargets = List.of(
+                OreConfiguration.target(stoneReplaceables, ModBlocks.URANIUM_ORE.defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_URANIUM_ORE.defaultBlockState())
+        );
 
 
 
-        // 3. Регистрация конфига:
-        context.register(TIN_ORE_KEY, new ConfiguredFeature<>(Feature.ORE,
-                new OreConfiguration(tinTargets, 64))); // Размер 64 — настоящая жила GregTech
+        // ConfiguredFeature задает "что генерим" и "размер жилы" (кол-во блоков в одной попытке генерации).
+        // Делаем более ванильные размеры: олово примерно как железо (чуть меньше), свинец заметно реже.
+        context.register(TIN_ORE_KEY, new ConfiguredFeature<>(
+                Feature.ORE,
+                new OreConfiguration(tinTargets, 8)
+        ));
+
+        context.register(LEAD_ORE_KEY, new ConfiguredFeature<>(
+                Feature.ORE,
+                new OreConfiguration(leadTargets, 6)
+        ));
+
+        context.register(SILVER_ORE_KEY, new ConfiguredFeature<>(
+                Feature.ORE,
+                new OreConfiguration(silverTargets, 7)
+        ));
+
+        context.register(URANIUM_ORE_KEY, new ConfiguredFeature<>(
+                Feature.ORE,
+                new OreConfiguration(uraniumTargets, 4)
+        ));
     }
 }

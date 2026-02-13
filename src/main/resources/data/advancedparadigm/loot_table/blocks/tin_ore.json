@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:table_bonus",
+          "enchantment": "minecraft:fortune",
+          "chances": [1.0, 1.0, 1.0, 1.0]
+        },
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "minecraft:needs_iron_tool"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "advancedparadigm:raw_tin"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:apply_bonus",
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:ore_drops"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "advancedparadigm:test_block": 1
+    },
+    "minecraft:dropped": {
+      "advancedparadigm:test_block": 1
+    },
+    "minecraft:used": {
+      "advancedparadigm:test_block": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 424,
+      "minecraft:time_since_rest": 1166,
+      "minecraft:walk_one_cm": 486,
+      "minecraft:total_world_time": 11420,
+      "minecraft:fly_one_cm": 1135,
+      "minecraft:crouch_one_cm": 13,
+      "minecraft:sneak_time": 12,
+      "minecraft:play_time": 1166,
+      "minecraft:jump": 9,
+      "minecraft:time_since_death": 1166,
+      "minecraft:drop": 1
+    }
+  },
+  "DataVersion": 4671
+}

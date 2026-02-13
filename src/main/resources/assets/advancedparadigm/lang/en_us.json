@@ -1,5 +1,10 @@
 {
-  "block.advancedparadigm.tin_ore": "Tin ore",
-  "item.advancedparadigm.raw_tin": "Raw tin",
-  "item.advancedparadigm.tin_ingot": "Tin ingot"
+  "item.advancedparadigm.raw_tin": "Raw Tin",
+  "item.advancedparadigm.tin_ingot": "Tin Ingot",
+
+  "block.advancedparadigm.tin_ore": "Tin Ore",
+  "block.advancedparadigm.deepslate_tin_ore": "Deepslate Tin Ore",
+
+  "block.advancedparadigm.lead_ore": "Lead Ore",
+  "block.advancedparadigm.deepslate_lead_ore": "Deepslate Lead Ore"
 }

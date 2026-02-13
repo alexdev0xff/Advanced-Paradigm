@@ -18,7 +18,10 @@ import net.minecraft.world.item.component.ItemLore;
 import java.util.List;
 
 public class ModTabs {
-    public static final ResourceKey<CreativeModeTab> CUSTOM_CREATIVE_TAB_KEY = ResourceKey.create(BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(AdvancedParadigm.MOD_ID, "creative_tab"));
+    public static final ResourceKey<CreativeModeTab> CUSTOM_CREATIVE_TAB_KEY = ResourceKey.create(
+            BuiltInRegistries.CREATIVE_MODE_TAB.key(),
+            Identifier.fromNamespaceAndPath(AdvancedParadigm.MOD_ID, "creative_tab")
+    );
     public static final CreativeModeTab CUSTOM_CREATIVE_TAB = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModItems.RAW_TIN))
             .title(Component.translatable("itemGroup.advancedparadigm"))
@@ -26,14 +29,25 @@ public class ModTabs {
 
                 output.accept(ModItems.RAW_TIN);
                 output.accept(ModItems.TIN_INGOT);
+                output.accept(ModBlocks.TEST_BLOCK);
+
                 output.accept(ModBlocks.TIN_ORE);
+                output.accept(ModBlocks.DEEPSLATE_TIN_ORE);
+
+                output.accept(ModBlocks.LEAD_ORE);
+                output.accept(ModBlocks.DEEPSLATE_LEAD_ORE);
+
+                output.accept(ModBlocks.SILVER_ORE);
+                output.accept(ModBlocks.SILVER_LEAD_ORE);
+
+                output.accept(ModBlocks.URANIUM_ORE);
+                output.accept(ModBlocks.DEEPSLATE_URANIUM_ORE);
+
+                output.accept(ModBlocks.ENERGY_PIPE);
+                output.accept(ModBlocks.ENERGY_CELL);
+                output.accept(ModBlocks.ELECTRIC_FURNACE);
 
 
-                // And custom ItemStacks
-                ItemStack stack = new ItemStack(Items.SEA_PICKLE);
-                stack.set(DataComponents.ITEM_NAME, Component.literal("Pickle Rick"));
-                stack.set(DataComponents.LORE, new ItemLore(List.of(Component.literal("I'm pickle riiick!!"))));
-                output.accept(stack);
             })
             .build();
 
