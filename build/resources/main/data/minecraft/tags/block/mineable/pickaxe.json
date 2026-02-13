@@ -2,7 +2,8 @@
   "replace": false,
   "values": [
     "advancedparadigm:tin_ore",
-    "advancedparadigm:deepslate_tin_ore"
-
+    "advancedparadigm:deepslate_tin_ore",
+    "advancedparadigm:lead_ore",
+    "advancedparadigm:deepslate_lead_ore"
   ]
 }

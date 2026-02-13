@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "advancedparadigm:test_block": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 224,
+      "minecraft:total_world_time": 251,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 26,
+      "minecraft:play_time": 224,
+      "minecraft:time_since_death": 224
+    }
+  },
+  "DataVersion": 4671
+}

@@ -51,7 +51,7 @@ dependencies {
 
 	// TechReborn Energy API (embedded into the built jar via include)
 	include modApi("teamreborn:energy:${project.energy_version}")
-	
+
 }
 
 processResources {

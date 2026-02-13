@@ -1,5 +1,10 @@
 {
-  "block.advancedparadigm.tin_ore": "Оловянная руда",
   "item.advancedparadigm.raw_tin": "Сырое олово",
-  "item.advancedparadigm.tin_ingot": "Оловянный слиток"
+  "item.advancedparadigm.tin_ingot": "Оловянный слиток",
+
+  "block.advancedparadigm.tin_ore": "Оловянная руда",
+  "block.advancedparadigm.deepslate_tin_ore": "Глубинная сланцевая оловянная руда",
+
+  "block.advancedparadigm.lead_ore": "Свинцовая руда",
+  "block.advancedparadigm.deepslate_lead_ore": "Глубинная сланцевая свинцовая руда"
 }
